@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/* Background: 121212
+    Primary: BB86FC
+    Secondary: fcbb86
+    Header font: Open sans
+    Body font: Monsteratt
+*/
+
+body {
+    background-color: #121212;
+}
+
+.block--flex {
+    display: flex;
+    width: 100%;
+}
+
+.flex__column {
+    flex-direction: row;
+}
+
+
+.padding-1x {
+    padding: 1rem;
+}
+
+.nav {
+    overflow: hidden;
+    width: 100%;
+}
+
+.nav--primary {
+    background-color: #95acb3;
+}
+
+.nav-size--70 {
+    height: 70px;
+}
+
+.nav_a {
+    padding: 1.75rem;
+}
+
+.font--white {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.primary-color {
+    color: #BB86FC;
+}
+
+.font__size--14 {
+    font-size: 14px;
+}
+
+.spacing--2 {
+    letter-spacing: 3.0px;
+}
+
+.font__open-sans {
+    font-family: 'Open-sans', sans-serif;
+}
+
+.ul__inline {
+    list-style-type: none;
+    display: inline;
+    line-height: 70px;
+}
+
+.li__float--left {
+    float: left;
+}
+
+.margin-1x{
+    margin: 0 1rem 0 1rem;
+}
+
+
+.margin-4x {
+    margin: 4rem;
+}
+
+.margin-right-4x {
+    margin-right: 4rem;
+}
+
+.margin__right--auto {
+    margin-left: auto;
+}
+
+.nav_a:hover {
+    color: #BB86FC;
+}
+
+.a-decoration--none {
+    text-decoration: none;
+}
+
+.a--black {
+    color: black;
+}
+
+.float--left {
+    float: left;
+}
+
+.float--right {
+    float: right;
+}
+
+.block--650 {
+    height: 800px;
+    padding: 6rem 3rem;
+}
+
+
+.block__img {
+    width: 400px;
+    height: 200px;
+    margin: 0 1rem;
+}
+
+.img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.block__left {
+    flex: 60%;
+    width: 60%;
+}
+
+.sticky {
+    position: sticky;
+}
+
+.block__right {
+    flex: 40%;
+    width: 40%;
+}
+
+.block--40 {
+    width: 40%;
+    height: 650px;
+
+}
+.cont {
+    padding: 4rem;
+}
+
+.icon {
+    margin-right: 1.5rem;
+    font-size: 2rem;
+}
+
+.icon--white {
+    background-color: white;
+}
+
+.icon:hover {
+    color: #BB86FC;
+}
+
+.absolute {
+    position: fixed;
+    right: 0;
+}
+
+.meter {
+    margin: 2rem 1.5rem;
+}
+
+meter::-webkit-meter-optimum-value {
+    background-color: #BB86FC;
+}
+
+.inline {
+    display: inline;
+}
+.meter--bar {
+    width: 25rem;
+}
+
+.contact {
+    margin: 2rem 1.5rem;
+}
+
+.block__text {
+    margin: 2rem 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+    
+}
+
