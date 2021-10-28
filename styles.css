@@ -170,6 +170,10 @@ meter::-webkit-meter-optimum-value {
     background-color: #BB86FC;
 }
 
+meter::-moz-meter-bar {
+    background-color: #BB86FC;
+}
+
 .meter--bar {
     width: 25rem;
 }
