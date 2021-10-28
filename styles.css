@@ -166,10 +166,11 @@ mateiral-icons.md-32 {
     margin: 2rem 1.5rem;
 }
 
-meter::-webkit-meter-optimum-value, meter:::-moz-meter-bar {
+meter::-webkit-meter-optimum-value, meter::-moz-meter-bar {
     background-color: #BB86FC;
 }
 
+meter
 .meter--bar {
     width: 25rem;
 }
