@@ -16,6 +16,10 @@ body {
     background-color: #121212;
 }
 
+mateiral-icons.md-32 {
+    font-size: 32px;
+}
+
 .primary-color {
     color: #BB86FC;
 }
