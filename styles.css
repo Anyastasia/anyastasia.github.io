@@ -6,9 +6,8 @@
     color: white;
 }
 
-/* Background: 121212
-    Primary: BB86FC
-    Secondary: fcbb86
+/* Background: #121212
+    Primary: #BB86FC
     Header font: Open sans
     Body font: Monsteratt
 */
@@ -17,6 +16,9 @@ body {
     background-color: #121212;
 }
 
+.primary-color {
+    color: #BB86FC;
+}
 .block--flex {
     display: flex;
     width: 100%;
@@ -60,14 +62,6 @@ body {
     text-transform: uppercase;
 }
 
-.primary-color {
-    color: #BB86FC;
-}
-
-.font__size--14 {
-    font-size: 14px;
-}
-
 .spacing--2 {
     letter-spacing: 3.0px;
 }
@@ -84,15 +78,6 @@ body {
 
 .li__float--left {
     float: left;
-}
-
-.margin-1x{
-    margin: 0 1rem 0 1rem;
-}
-
-
-.margin-4x {
-    margin: 4rem;
 }
 
 .margin-right-4x {
@@ -148,10 +133,6 @@ body {
     width: 60%;
 }
 
-.sticky {
-    position: sticky;
-}
-
 .block__right {
     flex: 40%;
     width: 40%;
@@ -162,17 +143,10 @@ body {
     height: 650px;
 
 }
-.cont {
-    padding: 4rem;
-}
 
 .icon {
     margin-right: 1.5rem;
     font-size: 2rem;
-}
-
-.icon--white {
-    background-color: white;
 }
 
 .icon:hover {
@@ -192,15 +166,8 @@ meter::-webkit-meter-optimum-value {
     background-color: #BB86FC;
 }
 
-.inline {
-    display: inline;
-}
 .meter--bar {
     width: 25rem;
-}
-
-.contact {
-    margin: 2rem 1.5rem;
 }
 
 .block__text {
@@ -209,21 +176,4 @@ meter::-webkit-meter-optimum-value {
     font-weight: 300;
 }
 
-@media screen and (max-width: 480px) {
-    body {
-        font-size: .75rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    
-}
-
-@media screen and (max-width: 1024px) {
-    
-}
-
-@media screen and (max-width: 1200px) {
-    
-}
 
