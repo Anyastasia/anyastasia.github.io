@@ -14,16 +14,16 @@
     <script src="https://kit.fontawesome.com/0201f41cb3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class='nav nav-size--70 absolute'>
+    <div class='nav nav-size--70 absolute'>
         <ul class='ul flex' style='font-family: Montserrat, sans-serif;' id="nav">
-            <li class='li menu'><a href="javascript:void(0)" onclick='toggleMenu()' class='nav_a'><i class="fa fa-bars icon" style="font-size: 1rem;" aria-hidden="true"></i></a></li>
             <li class='li'><a href="#home" class='nav_a a-decoration--none bold uppercase spacing--2'>Home</a></li>
             <li class='li'><a href="#about" class='nav_a a-decoration--none bold uppercase spacing--2'>About</a></li>
             <li class='li'><a href="#skill" class='nav_a a-decoration--none bold uppercase spacing--2'>Skills</a></li>
             <li class='li'><a href="#project" class='nav_a a-decoration--none bold uppercase spacing--2'>Projects</a></li>
             <li class='li'><a href="#contact" class='nav_a a-decoration--none bold uppercase spacing--2'>Contact</a></li>
+            <li class='li menu'><a href="javascript:void(0)" onclick='toggleMenu()' class='nav_a'><i class="fa fa-bars icon" style="font-size: 1rem;" aria-hidden="true"></i></a></li>
         </ul>
-    </nav>
+    </div>
 
     <!-- Home -->
     <div class='block block__home block--flex flex--row' id='home'>
@@ -122,6 +122,20 @@
         <a href='https://web.facebook.com/kxtianne' target='_blank'><i class="fab fa-facebook icon"></i></a>
         <a href="https://github.com/Anyastasia" target="_blank"><i class="fab fa-github icon"></i></a>
     </div>
+
+    <script>
+        function toggleMenu(){
+            e = document.getElementById('nav')
+    
+            if (e.className === 'ul flex') {
+                e.className += ' toggle';
+                console.log('toggle');
+            } else {
+                e.className = 'ul flex';
+                console.log('ul flex');
+            }
+        }
+    </script>
 
 
 </body>
